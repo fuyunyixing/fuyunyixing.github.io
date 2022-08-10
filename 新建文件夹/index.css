@@ -1,0 +1,148 @@
+body {
+    background-color: #f3f5f7;
+}
+
+.nav-container {
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    background-color: #fff;
+}
+
+.nav li {
+    float: left;
+    line-height: 120px;
+    margin: auto 40px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.nav-right {
+    float: left;
+    width: 800px;
+}
+
+.logo img {
+    height: 120px;
+    float: left;
+}
+
+.logo {
+    font-size: 20px;
+    color: orangered;
+}
+
+.nav a:hover {
+    color: #bfa;
+    text-decoration: underline;
+    text-decoration-color: #bfa;
+}
+
+.team-name {
+    float: left;
+}
+
+.contact .qrcode {
+    width: 124px;
+    margin: 0 10px;
+}
+
+.contact .qrcode img {
+    width: 100px;
+    position: relative;
+    top: -40px;
+    right: 10px;
+}
+
+.banner {
+    width: 1200px;
+    height: 520px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* ul标签的样式 */
+
+.imglist {
+    position: absolute;
+    background-color: #404040;
+}
+
+.imglist li {
+    list-style: none;
+    margin-right: 10px;
+    float: left;
+}
+
+.imglist img {
+    width: 1200px;
+    height: 520px;
+}
+
+
+/* 圆点导航父级div标签的样式 */
+
+.cir {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+}
+
+
+/* 圆点导航的设置 */
+
+.cir a {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 10px;
+    float: left;
+}
+
+
+/* 圆点导航点击后样式 */
+
+.cir a.hover {
+    background-color: black;
+    opacity: .5;
+}
+
+.tuisong {
+    position: relative;
+    top: 100px;
+}
+
+.tuisong-header h3 {
+    font-size: 30px;
+}
+
+.tuisong-body img {
+    height: 120px;
+}
+
+.tuisong-body .item {
+    width: 300px;
+    float: left;
+}
+
+.tuisong-body .item .check:hover {
+    color: rgb(245, 104, 0);
+}
+
+.footer {
+    position: relative;
+    top: 200px;
+}
+
+.footer .logo {
+    background: url(img/footer_logo.png) no-repeat top center;
+    height: 90px;
+    width: 100%;
+    float: right;
+    background-color: rgb(25, 75, 155);
+}
